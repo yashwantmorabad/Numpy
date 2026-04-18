@@ -15,6 +15,6 @@ print(b)
 from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns 
-sns.displot(random.normal(size=1000),kind="kde")
+sns.displot(random.normal(size=1000),kde=False)
 plt.show()
 #The curve of a normal dist is also called bell curve
